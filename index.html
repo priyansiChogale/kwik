@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KWIK CUSTOMIZE</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    
+</head>
+<body>
+    <section>
+        <div class="div1"> 
+            <div class="lgsg">
+                <button class="btn1">TrackOrder</button>
+                <button class="btn1" id="login">Login</button>
+                <button class="btn1" id="signup">SignUp</button>
+            </div>
+        </div>
+        <nav class="nav" id="nav">
+            <div id="logo"><a href=""><img height="60px" width="100%"src="/img/logo.png" /></a></div>
+            <div class="menubtns">
+                <ul>
+                    <li id="men" onmouseover="dropmen()" onmouseleave="dropmenl()"><a href="" >Men</a></li>
+                    <li id="women" onmouseover="dropwomen()" onmouseleave="dropwomenl()"><a href="" >Women</a></li>
+                    <li id="customiszed" onmouseover="dropcustom()" onmouseleave="dropcustoml()"><a href="" >Customization</a></li>
+                    <li id="covers" onmouseover="dropdown1()" onmouseleave="dropdownl1()"><a href="" >Mobile Covers</a></li>
+                    <li id="other" onmouseover="dropdown1()" onmouseleave="dropdownl1()"><a href="" >Other Products</a></li>
+                </ul>
+            </div>
+            <div class="menuitems">
+                <button class="btn2"><img height="100%" width="100%" src="/img/logo/heartlogo.svg" /></button>
+                <button class="btn2"><img height="100%" width="100%" src="/img/logo/cartlogo.svg" /></button>
+                <button class="btn2"><img height="100%" width="100%" src="/img/logo/searchlogo.svg" /></button>
+                <input id="searchbox" type="text" placeholder="Search"/>
+            </div>
+        </nav>
+        <div class="drop" id="dropmen" onmouseenter="dropmen()" onmouseleave="dropmenl()">
+            <h1>Top Wears</h1>
+            <ul>
+                <a href=""><li>Shirts</li></a>
+                <a href=""><li>Tshirts</li></a>
+                <a href=""><li>Printed Tshirts</li></a>
+                <a href=""><li>Full-Sleves TShirts</li></a>
+                <a href=""><li>Half-Sleves TShirt</li></a>
+                <a href=""><li>Polo TShirts</li></a>
+            </ul>
+            
+            <h1 style="display: block;">Accessories</h1>
+            <ul>
+                <a href=""><li>Mobile Covers</li></a>
+                <a href=""><li>Silicone Covers</li></a>
+                <a href=""><li>Customiszed Mobile Covers</li></a>
+
+            </ul>
+        </div>
+        <div class="drop" id="dropwomen" onmouseenter="dropwomen()" onmouseleave="dropwomenl()">
+            <h1>Top Wears</h1>
+            <ul>
+                <a href=""><li>Shirts</li></a>
+                <a href=""><li>Tshirts</li></a>
+                <a href=""><li>Printed Tshirts</li></a>
+                <a href=""><li>Full-Sleves TShirts</li></a>
+                <a href=""><li>Half-Sleves TShirt</li></a>
+                <a href=""><li>Crop Top</li></a>
+            </ul>
+            
+            <h1 style="display: block;">Accessories</h1>
+            <ul>
+                <a href=""><li>Mobile Covers</li></a>
+                <a href=""><li>Silicone Covers</li></a>
+                <a href=""><li>Customiszed Mobile Covers</li></a>
+
+            </ul>
+        </div>
+        <div class="drop" id="dropcustom" onmouseenter="dropcustom()" onmouseleave="dropcustoml()">
+            <ul>
+                <a href=""><li>Customized TShirts</li></a>
+                <a href=""><li>Customized Mobile Covers</li></a>
+            </ul>
+        </div>
+        <section>
+            <div class="slideshow1">
+                <button class="leftbtn" onclick="nextslide(-1)">&#8882</button>
+                <a href=""><img class="slides1" id="slide1" src="/img/slides1/slideimg1.jpg" /></a>
+                <button class="rightbtn" onclick="nextslide(1)">&#8883</button>
+            </div >
+            <div class="slideshow2">
+                <button class="leftbtn" onclick="nextslide2(-1)">&#8882</button>
+                <a href=""><img class="slides2" id="slide2" src="/img/slides2/slideimg1.jpg" /></a>
+                
+                <button class="rightbtn" onclick="nextslide2(1)">&#8883</button>
+            </div>
+            <div class="sectionimg">
+                <a href=""><img class="halfimg" src="/img/sectionimgs/sectionimg1a.jpg" /></a>
+                <a href=""><img class="halfimg" src="/img/sectionimgs/sectionimg1b.jpg" /></a>
+            </div>
+            <div class="sectionimg">
+                <div class="sectionimg2">
+                    <a href=""><img src="/img/sectionimgs/sectionimg3a.jpg" /></a>
+                </div>
+                <div class="sectionimg2">
+                    <a href=""><img src="/img/sectionimgs/sectionimg3b.jpg" /></a>
+                </div>
+            </div>
+            <div class="sectionimg">
+                <a href=""><img class="halfimg" src="/img/sectionimgs/sectionimg2a.jpg" /></a>
+                <a href=""><img class="halfimg" src="/img/sectionimgs/sectionimg2b.jpg" /></a>
+            </div>
+            <div style="width: 95%; margin-left: 2.5%;">
+                <img src="/img/sectionimgs/sectionimg5.jpg" />
+            </div>
+        </section>
+        <footer>
+            
+            <div class="leftfooter">
+                <div class="links">
+                    <h1>Company</h1>
+                    <ul>
+                        <li><a href="">Link </a> </li>
+                        <li><a href="">Link </a> </li>
+                        <li><a href="">Link </a> </li>
+                        <li><a href="">Link </a> </li>
+                        <li><a href="">Link </a> </li>
+                        <li><a href="">Link </a> </li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h1>Need Help</h1>
+                    <ul>
+                        <li><a href="">Link </a> </li>
+                        <li><a href="">Link </a> </li>
+                        <li><a href="">Link </a> </li>
+                        <li><a href="">Link </a> </li>
+                        <li><a href="">Link </a> </li>
+                        <li><a href="">Link </a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rightfooter">
+                <h1 >Join Us Here</h1>
+                <ul>
+                    <li><a href="" ><img src="/img/logo/instalogo.svg"></a></li>
+                    <li><a href="" ><img src="/img/logo/fblogo.svg"></a></li>
+                    <li><a href="" ><img src="/img/logo/linkedinlogo.svg"></a></li>
+                    <li><a href="" ><img src="/img/logo/twitterlogo.svg"></a></li>
+                </ul>
+            </div>
+            
+            <h1 align="center" >Location</h1>
+            <p align="center"> Shop No 3, Yashwant Smart City, Vasai East, Palghar, 401208.</p>
+            <p align="center">Copyright © -- KWIK CUSTOMIZE</p>
+            <div id="logo1"><a href=""><img height="60px" width="100%"src="/img/logo.png" /></a></div>
+        </footer>
+    </section>
+    <script type="text/javascript" src="/js/sccript.js"></script>
+</body>
+</html>
