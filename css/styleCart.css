@@ -33,7 +33,7 @@
 
 body{
     min-height: 100vh;
-    background-image: url(img/bgforwebsite.PNG);
+    background-image: url(../img/bgforwebsite.PNG);
     background-size: cover;
     /* background-color:whitesmoke;    #20203f */
     color: #333;    /*white*/
