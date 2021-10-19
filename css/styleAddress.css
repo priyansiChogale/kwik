@@ -12,9 +12,32 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    z-index: 1;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: yellowgreen;
+}
+
+/* .topBar{
+    z-index: 2;
+    background-color: #1f75fe;
+    width: 100%;
+} */
+
 body{
     min-height: 100vh;
-    background-color: #f9eeee; /*#20203f*/
+    /*background-image: url(bgforwebsite.PNG);
+    background-size: cover;*/
+    background-color:#f9eeee;   /* #20203f */
+    color: black;    /*white*/
+    background-attachment: fixed;
 }
 
 body::before{
@@ -39,41 +62,30 @@ body::after{
     clip-path: circle(20% at 10% 10%);
 }
 
-.navbar{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    z-index: 1;
+hr{
+    margin-top: 15px;
 }
 
-.formHeader{
-    color: #e91e63;
-    font-size: 2rem;
-    font-weight: 700;
+.inputDiscount{
+    width: 70%;
+    padding: 5px auto;
+    font-size: small;
 }
 
-label{
-    font-size: 1rem;
-    font-weight: 400;
-    color: black; /*white*/
+.applyBtn{
+    width: 80px;
+    margin-left: auto;
+    margin-right: 10px;
 }
 
-input:focus{
-    border: none;
+.accordion-button[aria-expanded=true]{
+    background-color: white;
+    outline: none;
+    color: black;
+    box-shadow: none;
 }
 
-i:hover{
-    cursor: pointer;
-}
-
-input{
-    border-bottom: 2px solid black !important; /*white*/
-    border-top: none !important;
-    border-left: none !important;
-    border-right: none !important;
-}
-
-.card{
+.card2{
     z-index: 1;
     position: relative;
     padding: 30px;
@@ -84,27 +96,42 @@ input{
     border-left: 1px solid rgba(255,255,255, 0.50);
     backdrop-filter: blur(5px);
     margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.productImg{
+    border-radius: 50%;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.page-link:focus{
+    box-shadow: none;
+    color: black;
+    background-color: #fff;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+.operators, .ctr{
+    color: black;
+    font-weight: 600;
+    width: 50px;
 }
 
 .formBtns{
     width: 150px;
-    background: transparent;
+    background: #7f45eb;
     margin-top: 20px;
     float: right;
     margin: auto 10px;
-    border: 2px solid #e91e63;
+    border: none;
     font-weight: 500;
     border-radius: 20px;
-    color: black;
-}
-
-.inputBox{
-    background-color: blueviolet;
-    border: 2px solid red;
 }
 
 .formBtns:hover{
     background-color: #e91e63;
     border: none;
-    color: white;
 }
