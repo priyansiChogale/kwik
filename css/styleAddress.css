@@ -14,7 +14,7 @@
 
 body{
     min-height: 100vh;
-    background-color: #20203f;
+    background-color: #f9eeee; /*#20203f*/
 }
 
 body::before{
@@ -55,7 +55,7 @@ body::after{
 label{
     font-size: 1rem;
     font-weight: 400;
-    color: white;
+    color: black; /*white*/
 }
 
 input:focus{
@@ -67,7 +67,7 @@ i:hover{
 }
 
 input{
-    border-bottom: 2px solid white !important;
+    border-bottom: 2px solid black !important; /*white*/
     border-top: none !important;
     border-left: none !important;
     border-right: none !important;
@@ -95,6 +95,7 @@ input{
     border: 2px solid #e91e63;
     font-weight: 500;
     border-radius: 20px;
+    color: black;
 }
 
 .inputBox{
@@ -105,4 +106,5 @@ input{
 .formBtns:hover{
     background-color: #e91e63;
     border: none;
+    color: white;
 }
